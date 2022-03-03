@@ -36,7 +36,7 @@ func (chain *BlockChain) AddBlock(data string) {
 }
 
 func Genesis() *Block {
-	return CreateBlock("Genesis - Init", []byte{})
+	return CreateBlock("Genesis Block", []byte{})
 }
 
 func InitBlockChain() *BlockChain {
